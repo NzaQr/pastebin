@@ -1,0 +1,49 @@
+.newLink-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newLink {
+  margin-right: 20px;
+  width: 100%;
+}
+
+.copy-button {
+  padding-bottom: 1.5em;
+}
+
+.copy-icon {
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+.copied {
+  font-family: "Bree Serif", serif;
+  position: relative;
+  right: 15px;
+}
+
+@media (min-width: 800px) {
+  .newLink-container {
+    margin-top: 2em;
+    max-width: 70%;
+    justify-content: center;
+  }
+  .newLink {
+    font-size: 20px;
+  }
+  .copy-icon {
+    position: relative;
+    top: -5px;
+    width: 2em;
+    height: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .newLink {
+    max-width: 40%;
+  }
+}
